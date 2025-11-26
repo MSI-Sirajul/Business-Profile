@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Business Profile</string>
+    
+    <!-- Messages -->
+    <string name="msg_internet_unavailable">Internet still unavailable</string>
+    <string name="msg_download_started">Download Started: %s</string>
+    <string name="msg_download_failed">Download Failed: %s</string>
+    <string name="msg_permission_needed">Permission needed to download files.</string>
+    <string name="msg_permission_granted">Permission granted. Please try downloading again.</string>
+    <string name="msg_permission_denied">Permission denied. Cannot download.</string>
+    <string name="msg_opening_browser">Opening in browser...</string>
+    <string name="msg_no_app_phone">No phone app available</string>
+    <string name="msg_no_app_email">No email app available</string>
+    <string name="msg_website_loaded">Website loaded successfully</string>
+    <string name="msg_enter_url_error">Please enter a website URL</string>
+    <string name="msg_init_error">Unable to initialize setup window.</string>
+    <string name="msg_file_chooser_error">Cannot open file chooser</string>
+    <string name="msg_blob_not_supported">File type not supported directly. Attempting to open...</string>
+
+    <!-- External App Packages List -->
+    <string-array name="external_app_packages">
+        <item>com.facebook.katana</item>
+        <item>com.facebook.orca</item>
+        <item>org.telegram.messenger</item>
+        <item>com.whatsapp</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.instagram.android</item>
+        <item>com.twitter.android</item>
+        <item>com.linkedin.android</item>
+        <item>com.skype.raider</item>
+        <item>com.android.vending</item>
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.gm</item>
+        <item>com.android.chrome</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.android.email</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.ubercab</item>
+        <item>com.google.android.talk</item>
+        <item>com.discord</item>
+    </string-array>
+
+    <!-- External URL Patterns -->
+    <string-array name="external_url_patterns">
+        <item>tel:</item>
+        <item>mailto:</item>
+        <item>sms:</item>
+        <item>smsto:</item>
+        <item>market://</item>
+        <item>intent://</item>
+        <item>whatsapp://</item>
+        <item>fb://</item>
+        <item>twitter://</item>
+        <item>instagram://</item>
+        <item>linkedin://</item>
+        <item>tg://</item>
+        <item>viber://</item>
+        <item>skype://</item>
+    </string-array>
+
+    <!-- External Domains -->
+    <string-array name="external_domains">
+        <item>facebook.com</item>
+        <item>fb.com</item>
+		<item>messenger.com</item>
+		<item>m.me</item>
+        <item>twitter.com</item>
+        <item>instagram.com</item>
+        <item>linkedin.com</item>
+        <item>telegram.me</item>
+        <item>t.me</item>
+        <item>whatsapp.com</item>
+        <item>wa.me</item>
+        <item>youtube.com</item>
+        <item>play.google.com</item>
+        <item>maps.google.com</item>
+        <item>gmail.com</item>
+        <item>tiktok.com</item>
+        <item>discord.com</item>
+    </string-array>
+</resources>
