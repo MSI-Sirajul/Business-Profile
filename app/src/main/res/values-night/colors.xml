@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (ডার্ক মোডে একটু সফট কালার ভালো লাগে) -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryDark">#03DAC6</color>
+
+    <!-- Dark Mode UI Colors -->
+    <color name="background">#121212</color>        <!-- কালো ব্যাকগ্রাউন্ড -->
+    <color name="surface">#1E1E1E</color>           <!-- ডার্ক কার্ড -->
+    
+    <!-- Dark Mode Text (সাদা টেক্সট) -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="divider">#333333</color>           <!-- ডার্ক বর্ডার -->
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="error">#CF6679</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    
+    <!-- Legacy Mappings for Dark Mode -->
+    <color name="gray_light">#2C2C2C</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#B0B0B0</color>
+    <color name="onSurface">#FFFFFF</color>
+    <color name="onPrimary">#000000</color>
+	<color name="input_background">#2C2C2C</color>
+    <color name="input_hint">#B0B0B0</color>       
+</resources>

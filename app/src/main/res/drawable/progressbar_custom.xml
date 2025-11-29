@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- প্রোগ্রেস বারের ব্যাকগ্রাউন্ড কালার (হালকা ধূসর) -->
+    <item android:id="@android:id/background"><shape>
+            <corners android:radius="0dp" />
+
+            <solid android:color="#E0E0E0" />
+        </shape></item>
+
+    <!-- সেকেন্ডারি প্রোগ্রেস (বাফারিং) - এটি অপশনাল -->
+    <item android:id="@android:id/secondaryProgress"><clip>
+            <shape>
+                <corners android:radius="0dp" />
+
+                <solid android:color="#802196F3" />
+            </shape>
+        </clip></item>
+
+    <!-- আসল প্রোগ্রেস কালার (নীল) -->
+    <item android:id="@android:id/progress"><clip>
+            <shape>
+                <corners android:radius="0dp" />
+
+                <solid android:color="#2196F3" />
+            </shape>
+        </clip></item>
+
+</layer-list>

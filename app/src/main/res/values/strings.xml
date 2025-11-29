@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Business Profile</string>
+    
+    <!-- Existing Strings -->
+    <string name="msg_internet_unavailable">Internet still unavailable</string>
+    <string name="msg_download_started">Download Started: %s</string>
+    <string name="msg_download_failed">Download Failed: %s</string>
+    <string name="msg_permission_needed">Permission needed to download files.</string>
+    <string name="msg_permission_granted">Permission granted. Please try downloading again.</string>
+    <string name="msg_permission_denied">Permission denied. Cannot download.</string>
+    <string name="msg_opening_browser">Opening in browser...</string>
+    <string name="msg_website_loaded">Website loaded successfully</string>
+    <string name="msg_enter_url_error">Please enter a website URL</string>
+    <string name="msg_init_error">Unable to initialize setup window.</string>
+    <string name="msg_file_chooser_error">Cannot open file chooser</string>
+
+    <!-- New Feature Strings -->
+    <string name="msg_exit_toast">Press back again to exit</string>
+    <string name="menu_title">Options</string>
+    <string name="action_share">Share App</string>
+    <string name="action_clear_cache">Clear Cache</string>
+    <string name="action_reset">Reset App</string>
+    <string name="msg_cache_cleared">Cache Cleared Successfully</string>
+    
+    <!-- Reset Dialog -->
+    <string name="dialog_reset_title">Reset Application?</string>
+    <string name="dialog_reset_message">Are you sure? This will delete your saved URL and app data. The app will restart.</string>
+    <string name="btn_yes">Yes, Reset</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Arrays (Keep existing logic) -->
+    <string-array name="external_app_packages">
+        <item>com.facebook.katana</item>
+        <item>com.whatsapp</item>
+        <item>org.telegram.messenger</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.apps.maps</item>
+    </string-array>
+
+    <string-array name="external_url_patterns">
+        <item>tel:</item>
+        <item>mailto:</item>
+        <item>sms:</item>
+        <item>intent://</item>
+        <item>whatsapp://</item>
+        <item>fb://</item>
+    </string-array>
+
+    <string-array name="external_domains">
+        <item>facebook.com</item>
+        <item>m.me</item>
+        <item>t.me</item>
+        <item>wa.me</item>
+    </string-array>
+
+    <!-- New Info Menu Strings -->
+    <string name="action_info">Developer Info</string>
+    <string name="profile_name">MD SIRAJUL ISLAM</string>
+    
+    <!-- Social Usernames/Subtitles -->
+    <string name="sub_twitter">MD Sirajul</string>
+    <string name="sub_telegram">MSI-Tech</string>
+    <string name="sub_discord">sirajul26</string>
+    <string name="sub_linkedin">@sirajul26</string>
+    <string name="sub_facebook">MSI Sirajul</string>
+    <string name="sub_instagram">MSI-Sirajul</string>
+    <string name="sub_youtube">Basic Hacker</string>
+    <string name="sub_tiktok">@MSI-Sirajul</string>
+
+    <!-- Social URLs (আপনার আসল লিংক এখানে বসান) -->
+    <string name="url_twitter">https://twitter.com/your_username</string>
+    <string name="url_telegram">https://t.me/your_username</string>
+    <string name="url_discord">https://discord.com/invite/your_code</string>
+    <string name="url_linkedin">https://linkedin.com/in/your_username</string>
+    <string name="url_facebook">https://facebook.com/your_username</string>
+    <string name="url_instagram">https://instagram.com/your_username</string>
+    <string name="url_youtube">https://youtube.com/c/basichacker26</string>
+    <string name="url_tiktok">https://tiktok.com/@your_username</string>
+	<!-- Info Page Strings -->
+    <string name="dev_title">Developer Info</string>
+    <string name="dev_name">MD Sirajul islam</string>
+    <string name="dev_handle">@MSI-Sirajul</string>
+    <string name="dev_about">About: Passionate about developing Android apps and useful utility tools.</string>
+    <string name="dev_website">https://md-sirajul-islam.vercel.app</string>
+    <string name="copyright_text">©MSI-Sirajul</string>
+
+    <!-- Device Info Labels -->
+    <string name="device_info_title">Device Info:</string>
+    <string name="lbl_brand">Brand</string>
+    <string name="lbl_model">Model</string>
+    <string name="lbl_device_id">Device ID</string>
+    <string name="lbl_version">Version</string>
+    <string name="lbl_os">OS</string>
+    <string name="lbl_sdk">SDK Info</string>
+    <string name="lbl_battery">Battery</string>
+    <string name="lbl_memory">Memory</string>
+</resources>
