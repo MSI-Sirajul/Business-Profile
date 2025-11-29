@@ -14,13 +14,13 @@
 
 ### ✨ Key Features
 
-*   ** Custom Setup Wizard:** Configure App Name & Website URL on the first run.
-*   ** Dynamic Icon Changer:** Switch between **5 custom app icons** instantly.
-*   ** Adaptive UI:** Fully optimized **Dark Mode** & Light Mode support.
-*   ** Advanced Downloading:** Integrated system download manager with notifications.
-*   ** Smart Connectivity:** Auto-reconnect logic with a custom offline page.
-*   ** Device Dashboard:** Real-time device specifications & developer info.
-*   ** Optimized:** Smooth performance with a colorful dynamic loader.
+*   **Custom Setup Wizard:** Configure App Name & Website URL on the first run.
+*   **Dynamic Icon Changer:** Switch between **5 custom app icons** instantly.
+*   **Adaptive UI:** Fully optimized **Dark Mode** & Light Mode support.
+*   **Advanced Downloading:** Integrated system download manager with notifications.
+*   **Smart Connectivity:** Auto-reconnect logic with a custom offline page.
+*   **Device Dashboard:** Real-time device specifications & developer info.
+*   **Optimized:** Smooth performance with a colorful dynamic loader.
 
 ### 🔐 Permissions
 
