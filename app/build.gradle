@@ -1,0 +1,33 @@
+android {
+    compileSdk 33  // Change to SDK 28 for better compatibility
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.business.profile"
+        minSdk 21
+        targetSdk 34  // Change to 28 to avoid Kotlin requirements
+        versionCode 13.1.1
+        versionName "1311.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Add this to avoid duplicate class errors
+    configurations {
+        all*.exclude group: 'androidx.core', module: 'core'
+        all*.exclude group: 'androidx.lifecycle', module: 'lifecycle-viewmodel-ktx'
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    
+}

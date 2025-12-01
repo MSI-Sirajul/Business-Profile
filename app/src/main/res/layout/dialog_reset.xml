@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Warning Icon -->
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/reset"
+        android:alpha="0.8"
+        android:contentDescription="Warning" />
+    <!-- reset.png আইকনটি আপনার drawable এ থাকতে হবে -->
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Application?"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="This will delete your saved website URL and all app data. You cannot undo this action."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"/>
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:text="Cancel"
+            android:textColor="@color/text_secondary"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:stateListAnimator="@null" />
+
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/btnConfirmReset"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/button_filled"
+            android:backgroundTint="#D32F2F"
+            android:text="Yes, Reset"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+            <!-- লাল রঙ দেওয়া হয়েছে কারণ এটি একটি ডেঞ্জারাস অ্যাকশন -->
+
+    </LinearLayout>
+
+</LinearLayout>
